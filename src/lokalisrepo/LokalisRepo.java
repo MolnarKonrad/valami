@@ -6,7 +6,7 @@ public class LokalisRepo {
 
     public static void main(String[] args) {
         OsszegzesTetele();
-        Kiiras("a sorozat összege: " + osszeg + "\n\n");
+        
     }
 
     private static void OsszegzesTetele() {
@@ -14,6 +14,7 @@ public class LokalisRepo {
         for (int i = 0; i < sorozat.length; i++) {
             osszeg += sorozat[i];
         }
+      Kiiras("a sorozat összege: " + osszeg + "\n\n");
     }
 
     private static void Kiiras(String eredmeny) {
