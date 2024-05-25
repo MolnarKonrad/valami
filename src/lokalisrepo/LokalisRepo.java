@@ -5,6 +5,7 @@ public class LokalisRepo {
 
     public static void main(String[] args) {
         OsszegzesTetele();
+        Kiiras();
     }
 
     private static void OsszegzesTetele() {
@@ -12,6 +13,10 @@ public class LokalisRepo {
         for (int i = 0; i < sorozat.length; i++) {
             osszeg += sorozat[i];
         }
+    }
+
+    private static void Kiiras() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
