@@ -2,10 +2,11 @@ package lokalisrepo;
 
 public class LokalisRepo {
     public static int[] sorozat = {2, 5, 1, 6, 3};
+    public static int osszeg;
 
     public static void main(String[] args) {
         OsszegzesTetele();
-        Kiiras();
+        Kiiras("a sorozat összege: " + osszeg + "\n\n");
     }
 
     private static void OsszegzesTetele() {
@@ -15,8 +16,8 @@ public class LokalisRepo {
         }
     }
 
-    private static void Kiiras() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    private static void Kiiras(String eredmeny) {
+        System.out.print(eredmeny);
     }
     
 }
