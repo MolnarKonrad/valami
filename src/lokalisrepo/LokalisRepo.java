@@ -6,7 +6,7 @@ public class LokalisRepo {
 
     public static void main(String[] args) {
         OsszegzesTetele();
-        
+        Megszamlalas();
     }
 
     private static void OsszegzesTetele() {
@@ -19,6 +19,10 @@ public class LokalisRepo {
 
     private static void Kiiras(String eredmeny) {
         System.out.print(eredmeny);
+    }
+
+    private static void Megszamlalas() {
+        
     }
     
 }
